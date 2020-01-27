@@ -35,6 +35,33 @@ In order to train your agent and test your agent, all you have to do is the foll
 python main.py
 ```
 
+## Benchmarking
+
+The current agent is able to solve the environment in 176 episodes.
+```python
+Episode 1	Average Score: 0.63
+Episode 2	Average Score: 0.63
+Episode 3	Average Score: 0.66
+Episode 4	Average Score: 0.67
+Episode 5	Average Score: 0.84
+Episode 6	Average Score: 0.96
+Episode 7	Average Score: 1.04
+Episode 8	Average Score: 1.10
+Episode 9	Average Score: 1.14
+Episode 10	Average Score: 1.18
+Episode 11	Average Score: 1.33
+Episode 12	Average Score: 1.45
+Episode 13	Average Score: 1.58
+Episode 14	Average Score: 1.68
+Episode 15	Average Score: 1.82
+Episode 16	Average Score: 1.93
+...
+Episode 173	Average Score: 29.45
+Episode 174	Average Score: 29.68
+Episode 175	Average Score: 29.91
+Episode 176	Average Score: 30.13
+Enviroment solved in @ i_episode=176, w/ avg_score=30.13
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
