@@ -6,7 +6,7 @@ A reward of +0.1 is provided for each step that the agent's hand is in the goal 
 
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
-For this version of the environment, we will have one agent. The task is episodic, and in order to solve the environment, our agent must get an average score of +30 over 100 consecutive episodes.
+For this version of the environment, we will have 20 agents. The task is episodic, and in order to solve the environment, our agents must get an average score of +30 over 100 consecutive episodes.
 
 ## Installation
 First, and in order to have a working environment that is as clean as possible, let's:
